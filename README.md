@@ -6,7 +6,7 @@ A side project built with public data (CDC 500 Cities + USDA Food Environment At
 
 ### Live page
 
-**[kbansal4.github.io/foodaccess](https://kbansal4.github.io/foodaccess)** - full write-up with interactive results.
+**[kbansal4.github.io/foodaccess](https://kbansal4.github.io/foodaccess)** - full write-up with an interactive county map.
 
 ### How it works
 
@@ -18,7 +18,8 @@ A side project built with public data (CDC 500 Cities + USDA Food Environment At
 ### Files
 
 - `index.html` - the project page
-- `FoodAccessProgramAnalysis.ipynb` - the analysis notebook
+- `assets/Food-Access-Program-Analysis.ipynb` - the analysis notebook
+- `assets/data.json` - the scored county dataset behind the interactive map
 
 Note: the notebook reads from `challenge.db` (SQLite), which isn't included here. It can be rebuilt from the two public sources linked above.
 
